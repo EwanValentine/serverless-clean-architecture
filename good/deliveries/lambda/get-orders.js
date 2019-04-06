@@ -8,9 +8,11 @@ const getOrdersUsecase = require('../../usecases/get-orders')(
   orderRepository,
 );
 
-const getOrders = async ({ body }) => {
+const handler = async ({ body }) => {
   const { id } = body;
   return getOrdersUsecase(id);
 };
 
-module.exports = getOrders;
+module.exports = {
+  handler,
+};

@@ -1,0 +1,6 @@
+service:
+  name: clean-service
+
+functions:
+  get-orders:
+    handler: deliveries/lambda/get-orders.handler
