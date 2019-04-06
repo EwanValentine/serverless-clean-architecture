@@ -1,6 +1,6 @@
 # Clean Architected Serverless
 
-## Note:
+## Note:
 This isn't a complete, working repo, just an outline. The serverless projects aren't hooked up etc.
 
 ## Benefits
